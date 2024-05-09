@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{2B07E37D-365B-4107-95C8-175523557CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.FactoryMethod.UnitTests", "Creational.FactoryMethod.UnitTests\Creational.FactoryMethod.UnitTests.csproj", "{85F1A01E-53ED-4A8C-A992-D5AE7198C74E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,12 +30,18 @@ Global
 		{753E2CE6-1CC9-493F-BED0-9FDDF2225353}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{753E2CE6-1CC9-493F-BED0-9FDDF2225353}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{753E2CE6-1CC9-493F-BED0-9FDDF2225353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85F1A01E-53ED-4A8C-A992-D5AE7198C74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F1A01E-53ED-4A8C-A992-D5AE7198C74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F1A01E-53ED-4A8C-A992-D5AE7198C74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F1A01E-53ED-4A8C-A992-D5AE7198C74E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{753E2CE6-1CC9-493F-BED0-9FDDF2225353} = {42C966A1-1877-49F5-A155-6D27493BE265}
+		{753E2CE6-1CC9-493F-BED0-9FDDF2225353} = {2B07E37D-365B-4107-95C8-175523557CBA}
+		{2B07E37D-365B-4107-95C8-175523557CBA} = {42C966A1-1877-49F5-A155-6D27493BE265}
+		{85F1A01E-53ED-4A8C-A992-D5AE7198C74E} = {2B07E37D-365B-4107-95C8-175523557CBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A46AA7A-81C9-4910-A450-2585A43895D6}

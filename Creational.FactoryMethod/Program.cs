@@ -1,8 +1,15 @@
 ﻿namespace Creational.FactoryMethod
 {
+    /// <summary>
+    /// Main class where the application starts.
+    /// </summary>
     internal class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Main function.
+        /// </summary>
+        /// <param name="args">String array of arguments.</param>
+        public static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
         }
