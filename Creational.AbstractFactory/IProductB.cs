@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Creational.AbstractFactory
+﻿namespace Creational.AbstractFactory
 {
-    internal interface IProductB
+    /// <summary>
+    /// Represents a product interface for type B.
+    /// </summary>
+    public interface IProductB
     {
+        /// <summary>
+        /// Performs an operation specific to the product.
+        /// </summary>
+        void Operation();
     }
 }

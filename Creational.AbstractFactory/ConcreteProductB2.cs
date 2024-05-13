@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Creational.AbstractFactory
+﻿namespace Creational.AbstractFactory
 {
-    internal class ConcreteProductB2
+    /// <summary>
+    /// Represents a concrete product of type B.
+    /// </summary>
+    public class ConcreteProductB2 : IProductB
     {
+        /// <inheritdoc/>
+        public void Operation()
+        {
+            /// <inheritdoc/>
+            Console.WriteLine("Operation from ConcreteProductB2");
+        }
     }
 }
