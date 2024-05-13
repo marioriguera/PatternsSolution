@@ -11,7 +11,7 @@
         /// <param name="args">String array of arguments.</param>
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Factory Method pattern");
         }
     }
 }
