@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{654EE9BE-891A-41BB-9D90-64FC95D74EDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.FactoryMethod", "Creational.FactoryMethod\Creational.FactoryMethod.csproj", "{753E2CE6-1CC9-493F-BED0-9FDDF2225353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational.FactoryMethod", "Creational.FactoryMethod\Creational.FactoryMethod.csproj", "{753E2CE6-1CC9-493F-BED0-9FDDF2225353}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{768B1329-1C55-40CE-92A5-CBFB439727CC}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,7 +18,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{2B07E37D-365B-4107-95C8-175523557CBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.FactoryMethod.UnitTests", "Creational.FactoryMethod.UnitTests\Creational.FactoryMethod.UnitTests.csproj", "{85F1A01E-53ED-4A8C-A992-D5AE7198C74E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational.FactoryMethod.UnitTests", "Creational.FactoryMethod.UnitTests\Creational.FactoryMethod.UnitTests.csproj", "{85F1A01E-53ED-4A8C-A992-D5AE7198C74E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{F13038F4-3A65-431A-A89B-C6D3348E3454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.AbstractFactory", "Creational.AbstractFactory\Creational.AbstractFactory.csproj", "{824006B4-72AB-46A5-B80E-DB290E192338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.AbstractFactory.UnitTests", "Creational.AbstractFactory.UnitTests\Creational.AbstractFactory.UnitTests.csproj", "{A683204A-B41A-4D7D-8029-B5C0623D3480}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +40,14 @@ Global
 		{85F1A01E-53ED-4A8C-A992-D5AE7198C74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85F1A01E-53ED-4A8C-A992-D5AE7198C74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85F1A01E-53ED-4A8C-A992-D5AE7198C74E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824006B4-72AB-46A5-B80E-DB290E192338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824006B4-72AB-46A5-B80E-DB290E192338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824006B4-72AB-46A5-B80E-DB290E192338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824006B4-72AB-46A5-B80E-DB290E192338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A683204A-B41A-4D7D-8029-B5C0623D3480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A683204A-B41A-4D7D-8029-B5C0623D3480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A683204A-B41A-4D7D-8029-B5C0623D3480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A683204A-B41A-4D7D-8029-B5C0623D3480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +56,9 @@ Global
 		{753E2CE6-1CC9-493F-BED0-9FDDF2225353} = {2B07E37D-365B-4107-95C8-175523557CBA}
 		{2B07E37D-365B-4107-95C8-175523557CBA} = {42C966A1-1877-49F5-A155-6D27493BE265}
 		{85F1A01E-53ED-4A8C-A992-D5AE7198C74E} = {2B07E37D-365B-4107-95C8-175523557CBA}
+		{F13038F4-3A65-431A-A89B-C6D3348E3454} = {42C966A1-1877-49F5-A155-6D27493BE265}
+		{824006B4-72AB-46A5-B80E-DB290E192338} = {F13038F4-3A65-431A-A89B-C6D3348E3454}
+		{A683204A-B41A-4D7D-8029-B5C0623D3480} = {F13038F4-3A65-431A-A89B-C6D3348E3454}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A46AA7A-81C9-4910-A450-2585A43895D6}
