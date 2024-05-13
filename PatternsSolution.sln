@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.AbstractFactory"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.AbstractFactory.UnitTests", "Creational.AbstractFactory.UnitTests\Creational.AbstractFactory.UnitTests.csproj", "{A683204A-B41A-4D7D-8029-B5C0623D3480}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{9100E919-74BF-4AE5-BAC5-9EBE3C714016}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,7 @@ Global
 		{F13038F4-3A65-431A-A89B-C6D3348E3454} = {42C966A1-1877-49F5-A155-6D27493BE265}
 		{824006B4-72AB-46A5-B80E-DB290E192338} = {F13038F4-3A65-431A-A89B-C6D3348E3454}
 		{A683204A-B41A-4D7D-8029-B5C0623D3480} = {F13038F4-3A65-431A-A89B-C6D3348E3454}
+		{9100E919-74BF-4AE5-BAC5-9EBE3C714016} = {42C966A1-1877-49F5-A155-6D27493BE265}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A46AA7A-81C9-4910-A450-2585A43895D6}

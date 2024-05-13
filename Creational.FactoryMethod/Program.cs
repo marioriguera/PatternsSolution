@@ -28,6 +28,17 @@
         }
 
         /// <summary>
+        /// Get exit messages to close console.
+        /// </summary>
+        private static void GetExitMessages()
+        {
+            Console.WriteLine(); // Line break to separate menu iterations.
+            Console.Write("Presione cualquier tecla para continuar...");
+            Console.ReadKey();
+            Console.Clear(); // Clear the console to show the menu again.
+        }
+
+        /// <summary>
         /// Prompts the user to select an option and returns whether an exit has been requested.
         /// </summary>
         /// <param name="exitRequested">A boolean indicating whether an exit has been requested.</param>
@@ -57,17 +68,6 @@
         }
 
         /// <summary>
-        /// Get exit messages to close console.
-        /// </summary>
-        private static void GetExitMessages()
-        {
-            Console.WriteLine(); // Line break to separate menu iterations.
-            Console.Write("Presione cualquier tecla para continuar...");
-            Console.ReadKey();
-            Console.Clear(); // Clear the console to show the menu again.
-        }
-
-        /// <summary>
         /// Get option menu console.
         /// </summary>
         private static void GetOption()
@@ -87,7 +87,7 @@
             Console.WriteLine("Ha seleccionado la Opción 1.");
 
             Creator creator = new ConcreteCreatorA();
-            IProduct product = creator.FactoryMethod();
+            _ = creator.FactoryMethod();
 
             Console.WriteLine("Entonces se ha creado el producto A.");
         }
@@ -100,7 +100,7 @@
             Console.WriteLine("Ha seleccionado la Opción 2.");
 
             Creator creator = new ConcreteCreatorB();
-            IProduct product = creator.FactoryMethod();
+            _ = creator.FactoryMethod();
 
             Console.WriteLine("Entonces se ha creado el producto B.");
         }
