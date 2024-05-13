@@ -125,3 +125,8 @@ dotnet_naming_style.pascal_case.capitalization = pascal_case
 end_of_line = crlf
 dotnet_style_allow_multiple_blank_lines_experimental = true:silent
 dotnet_style_allow_statement_immediately_after_block_experimental = true:silent
+dotnet_style_readonly_field = true:suggestion
+
+# SA0001: XML comment analysis disabled
+dotnet_diagnostic.SA0001.severity = none
+dotnet_diagnostic.CA1816.severity = warning
