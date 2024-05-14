@@ -1,7 +1,3 @@
-ï»¿[*.cs]
-
-# Default severity for analyzer diagnostics with category 'StyleCop.CSharp.DocumentationRules'
-dotnet_analyzer_diagnostic.category-StyleCop.CSharp.DocumentationRules.severity = warning
 
 [*.cs]
 #### Estilos de nomenclatura ####
@@ -20,7 +16,7 @@ dotnet_naming_rule.non_field_members_should_be_pascal_case.severity = suggestion
 dotnet_naming_rule.non_field_members_should_be_pascal_case.symbols = non_field_members
 dotnet_naming_rule.non_field_members_should_be_pascal_case.style = pascal_case
 
-# Especificaciones de sÃ­mbolos
+# Especificaciones de símbolos
 
 dotnet_naming_symbols.interface.applicable_kinds = interface
 dotnet_naming_symbols.interface.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
@@ -68,11 +64,14 @@ csharp_prefer_braces = true:silent
 csharp_style_namespace_declarations = block_scoped:silent
 csharp_style_prefer_method_group_conversion = true:silent
 csharp_style_prefer_top_level_statements = true:silent
-csharp_style_prefer_primary_constructors = true:suggestion
-dotnet_diagnostic.SX1101.severity = none
+csharp_style_prefer_primary_constructors = false:silent
+csharp_space_around_binary_operators = before_and_after
+csharp_indent_labels = no_change
 dotnet_diagnostic.SA1101.severity = none
+dotnet_diagnostic.SX1101.severity = none
 dotnet_diagnostic.SA1633.severity = none
-dotnet_diagnostic.SA1503.severity = none
+dotnet_diagnostic.SA1309.severity = none
+dotnet_diagnostic.CA1309.severity = silent
 
 [*.vb]
 #### Estilos de nomenclatura ####
@@ -91,7 +90,7 @@ dotnet_naming_rule.miembros_que_no_son_un_campo_should_be_pascal_case.severity =
 dotnet_naming_rule.miembros_que_no_son_un_campo_should_be_pascal_case.symbols = miembros_que_no_son_un_campo
 dotnet_naming_rule.miembros_que_no_son_un_campo_should_be_pascal_case.style = pascal_case
 
-# Especificaciones de sÃ­mbolos
+# Especificaciones de símbolos
 
 dotnet_naming_symbols.interface.applicable_kinds = interface
 dotnet_naming_symbols.interface.applicable_accessibilities = public, friend, private, protected, protected_friend, private_protected
@@ -127,8 +126,6 @@ end_of_line = crlf
 dotnet_style_allow_multiple_blank_lines_experimental = true:silent
 dotnet_style_allow_statement_immediately_after_block_experimental = true:silent
 dotnet_style_readonly_field = true:suggestion
-
-# SA0001: XML comment analysis disabled
-dotnet_diagnostic.SA0001.severity = none
-dotnet_diagnostic.CA1816.severity = warning
-dotnet_diagnostic.CA1859.severity = none
+dotnet_style_operator_placement_when_wrapping = beginning_of_line
+tab_width = 4
+indent_size = 4

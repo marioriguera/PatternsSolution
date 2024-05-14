@@ -28,17 +28,6 @@
         }
 
         /// <summary>
-        /// Get exit messages to close console.
-        /// </summary>
-        private static void GetExitMessages()
-        {
-            Console.WriteLine(); // Line break to separate menu iterations.
-            Console.Write("Presione cualquier tecla para continuar...");
-            Console.ReadKey();
-            Console.Clear(); // Clear the console to show the menu again.
-        }
-
-        /// <summary>
         /// Get option menu console.
         /// </summary>
         private static void GetOption()
@@ -85,6 +74,17 @@
             }
 
             return exitRequested;
+        }
+
+        /// <summary>
+        /// Get exit messages to close console.
+        /// </summary>
+        private static void GetExitMessages()
+        {
+            Console.WriteLine(); // Line break to separate menu iterations.
+            Console.Write("Presione cualquier tecla para continuar...");
+            Console.ReadKey();
+            Console.Clear(); // Clear the console to show the menu again.
         }
 
         /// <summary>
