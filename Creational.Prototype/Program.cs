@@ -1,14 +1,14 @@
-﻿namespace Creational.Builder
+﻿namespace Creational.Prototype
 {
     /// <summary>
-    /// Represents the entry point of the program.
+    /// Main class where the application starts.
     /// </summary>
     internal class Program
     {
         /// <summary>
-        /// The main entry point of the program.
+        /// Main function.
         /// </summary>
-        /// <param name="args">The command-line arguments.</param>
+        /// <param name="args">String array of arguments.</param>
         public static void Main(string[] args)
         {
             if (args.Length == 0) Console.WriteLine("Console arguments array its empty.");
@@ -32,9 +32,9 @@
         /// </summary>
         private static void GetOption()
         {
-            Console.WriteLine("Builder pattern");
+            Console.WriteLine("Prototype pattern");
             Console.WriteLine("Menú de opciones:");
-            Console.WriteLine("1. Contruir un producto");
+            Console.WriteLine("1. Crear prototipo");
             Console.WriteLine("2. Salir");
         }
 
@@ -51,7 +51,7 @@
             switch (input)
             {
                 case "1":
-                    CreateNewProduct();
+                    CreatePrototype();
                     break;
                 case "2":
                     exitRequested = true;
@@ -76,24 +76,19 @@
         }
 
         /// <summary>
-        /// Creates a new product using the builder pattern.
+        /// Creates a prototype and clones it.
         /// </summary>
-        private static void CreateNewProduct()
+        private static void CreatePrototype()
         {
-            // Create a concrete builder
-            IBuilder builder = new ConcreteBuilder();
+            // Create a concrete prototype
+            var prototype = new ConcretePrototype { Id = 1 };
 
-            // Create a director and pass the builder to it
-            Director director = new(builder);
+            // Clone the prototype
+            var clonedPrototype = prototype.Clone();
 
-            // Construct the product
-            director.Construct();
-
-            // Get the constructed product
-            Product product = builder.GetResult();
-
-            // Show the product information
-            product.ShowInfo();
+            // Show the ID of the prototype and the clone
+            Console.WriteLine($"Original Prototype ID: {prototype.Id}");
+            Console.WriteLine($"Cloned Prototype ID: {clonedPrototype.Id}");
         }
     }
 }
