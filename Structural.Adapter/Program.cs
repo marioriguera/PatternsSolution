@@ -1,5 +1,4 @@
-﻿
-namespace Structural.Adapter
+﻿namespace Structural.Adapter
 {
     /// <summary>
     /// Main class where the application starts.

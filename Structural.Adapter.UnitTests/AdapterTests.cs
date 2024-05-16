@@ -12,7 +12,7 @@ namespace Structural.Adapter.UnitTests
         public void Adapter_TransformsRequestToStringMessageCorrectly()
         {
             // Arrange
-            Adaptee adaptee = new Adaptee();
+            Adaptee adaptee = new();
             ITarget adapter = new Adapter(adaptee);
 
             // Act
