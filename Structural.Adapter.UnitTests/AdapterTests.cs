@@ -19,7 +19,7 @@ namespace Structural.Adapter.UnitTests
             string result = adapter.GetRequest();
 
             // Assert
-            Assert.Equal("This is 'Specific request'", result);
+            Assert.Equal("This is the id: 154 .", result);
         }
     }
 }
