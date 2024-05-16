@@ -27,6 +27,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Structural.Adapter\Structural.Adapter.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
