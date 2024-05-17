@@ -1,3 +1,7 @@
+[*.cs]
+
+# Default severity for analyzer diagnostics with category 'StyleCop.CSharp.DocumentationRules'
+dotnet_analyzer_diagnostic.category-StyleCop.CSharp.DocumentationRules.severity = warning
 
 [*.cs]
 #### Estilos de nomenclatura ####
@@ -16,7 +20,7 @@ dotnet_naming_rule.non_field_members_should_be_pascal_case.severity = suggestion
 dotnet_naming_rule.non_field_members_should_be_pascal_case.symbols = non_field_members
 dotnet_naming_rule.non_field_members_should_be_pascal_case.style = pascal_case
 
-# Especificaciones de símbolos
+# Especificaciones de sÃ­mbolos
 
 dotnet_naming_symbols.interface.applicable_kinds = interface
 dotnet_naming_symbols.interface.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
@@ -59,23 +63,21 @@ csharp_style_allow_blank_lines_between_consecutive_braces_experimental = true:si
 csharp_style_allow_blank_line_after_colon_in_constructor_initializer_experimental = true:silent
 csharp_style_allow_blank_line_after_token_in_conditional_expression_experimental = true:silent
 csharp_style_allow_blank_line_after_token_in_arrow_expression_clause_experimental = true:silent
-csharp_prefer_simple_using_statement = true:suggestion
+csharp_prefer_simple_using_statement = false:silent
 csharp_prefer_braces = true:silent
 csharp_style_namespace_declarations = block_scoped:silent
 csharp_style_prefer_method_group_conversion = true:silent
 csharp_style_prefer_top_level_statements = true:silent
-csharp_style_prefer_primary_constructors = false:silent
-csharp_space_around_binary_operators = before_and_after
-csharp_indent_labels = no_change
-dotnet_diagnostic.SA1101.severity = none
+csharp_style_prefer_primary_constructors = true:suggestion
 dotnet_diagnostic.SX1101.severity = none
+dotnet_diagnostic.SA1101.severity = none
 dotnet_diagnostic.SA1633.severity = none
-dotnet_diagnostic.SA1309.severity = none
-dotnet_diagnostic.CA1309.severity = silent
 dotnet_diagnostic.SA1503.severity = none
 dotnet_diagnostic.SA1000.severity = none
-csharp_style_unused_value_assignment_preference = discard_variable:suggestion
-dotnet_diagnostic.SA0001.severity = none
+dotnet_diagnostic.SA1309.severity = none
+dotnet_diagnostic.SA1200.severity = none
+csharp_using_directive_placement = outside_namespace:silent
+dotnet_diagnostic.SA1010.severity = none
 
 [*.vb]
 #### Estilos de nomenclatura ####
@@ -94,7 +96,7 @@ dotnet_naming_rule.miembros_que_no_son_un_campo_should_be_pascal_case.severity =
 dotnet_naming_rule.miembros_que_no_son_un_campo_should_be_pascal_case.symbols = miembros_que_no_son_un_campo
 dotnet_naming_rule.miembros_que_no_son_un_campo_should_be_pascal_case.style = pascal_case
 
-# Especificaciones de símbolos
+# Especificaciones de sÃ­mbolos
 
 dotnet_naming_symbols.interface.applicable_kinds = interface
 dotnet_naming_symbols.interface.applicable_accessibilities = public, friend, private, protected, protected_friend, private_protected
@@ -130,8 +132,8 @@ end_of_line = crlf
 dotnet_style_allow_multiple_blank_lines_experimental = true:silent
 dotnet_style_allow_statement_immediately_after_block_experimental = true:silent
 dotnet_style_readonly_field = true:suggestion
-dotnet_style_operator_placement_when_wrapping = beginning_of_line
-tab_width = 4
-indent_size = 4
+
+# SA0001: XML comment analysis disabled
+dotnet_diagnostic.SA0001.severity = none
+dotnet_diagnostic.CA1816.severity = warning
 dotnet_diagnostic.CA1859.severity = none
-dotnet_code_quality_unused_parameters = all:suggestion

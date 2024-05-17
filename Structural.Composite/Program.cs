@@ -1,4 +1,7 @@
-﻿namespace Structural.Adapter
+﻿using Structural.Composite.Composite;
+using Structural.Composite.Leaf;
+
+namespace Structural.Composite
 {
     /// <summary>
     /// Main class where the application starts.
@@ -32,9 +35,9 @@
         /// </summary>
         private static void GetOption()
         {
-            Console.WriteLine("Adapter pattern");
+            Console.WriteLine("Composite pattern");
             Console.WriteLine("Menú de opciones:");
-            Console.WriteLine("1. Adaptar Id a mensaje");
+            Console.WriteLine("1. Dibujar");
             Console.WriteLine("2. Salir");
         }
 
@@ -51,7 +54,7 @@
             switch (input)
             {
                 case "1":
-                    DoIdAdapterToMessage();
+                    DrawGraphics();
                     break;
                 case "2":
                     exitRequested = true;
@@ -76,18 +79,21 @@
         }
 
         /// <summary>
-        /// Demonstrates using the adapter to convert a specific request to the target interface.
+        /// Demonstrates the drawing of graphics using the composite pattern.
         /// </summary>
-        private static void DoIdAdapterToMessage()
+        private static void DrawGraphics()
         {
-            // Create the Adaptee
-            Adaptee adaptee = new();
+            // Create leaf nodes
+            var circle = new Circle();
+            var square = new Square();
 
-            // Create the Adapter that makes Adaptee compatible with ITarget
-            ITarget target = new Adapter(adaptee);
+            // Create a composite
+            var composite = new CompositeGraphic();
+            composite.Add(circle);
+            composite.Add(square);
 
-            // Use the Adapter as if it were an ITarget object
-            Console.WriteLine(target.GetRequest());
+            // Draw the composite
+            composite.Draw();
         }
     }
 }

@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Structural.Bridge\Structural.Bridge.csproj" />
+    <ProjectReference Include="..\Structural.Composite\Structural.Composite.csproj" />
   </ItemGroup>
 
   <ItemGroup>
