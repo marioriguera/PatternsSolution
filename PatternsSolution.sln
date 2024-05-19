@@ -64,27 +64,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Composite.UnitTe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{B0EA7CF8-5B88-4583-9796-A2C58112B68F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Decorator", "Structural.Decorator\Structural.Decorator.csproj", "{D7AD0385-CA2E-426E-AA57-F8049EE19882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Decorator", "Structural.Decorator\Structural.Decorator.csproj", "{D7AD0385-CA2E-426E-AA57-F8049EE19882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Decorator.UnitTests", "Structural.Decorator.UnitTests\Structural.Decorator.UnitTests.csproj", "{E0365F46-07C7-45EC-8D64-86BA094CBF11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Decorator.UnitTests", "Structural.Decorator.UnitTests\Structural.Decorator.UnitTests.csproj", "{E0365F46-07C7-45EC-8D64-86BA094CBF11}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{0BEC54A0-6709-487D-A804-6C085FBA4510}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Facade", "Structural.Facade\Structural.Facade.csproj", "{3CF898FD-5AD0-4972-90F9-28E65AAE1051}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Facade", "Structural.Facade\Structural.Facade.csproj", "{3CF898FD-5AD0-4972-90F9-28E65AAE1051}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Facade.UnitTests", "Structural.Facade.UnitTests\Structural.Facade.UnitTests.csproj", "{DA986DE1-82B0-494F-BDE6-7B38BADA74D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Facade.UnitTests", "Structural.Facade.UnitTests\Structural.Facade.UnitTests.csproj", "{DA986DE1-82B0-494F-BDE6-7B38BADA74D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{FCA17D4A-BC03-420A-9C3D-6EBB79B64CED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Flyweight.UnitTests", "Structural.Flyweight.UnitTests\Structural.Flyweight.UnitTests.csproj", "{E4C929E9-42F5-41B8-99FE-05501F1455A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Flyweight.UnitTests", "Structural.Flyweight.UnitTests\Structural.Flyweight.UnitTests.csproj", "{E4C929E9-42F5-41B8-99FE-05501F1455A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Flyweight", "Structural.Flyweight\Structural.Flyweight.csproj", "{C77ED4E6-DE6C-444F-B3F3-67AE9AA5B141}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Flyweight", "Structural.Flyweight\Structural.Flyweight.csproj", "{C77ED4E6-DE6C-444F-B3F3-67AE9AA5B141}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{7D0C75DE-8C7E-42F5-9F48-9AC40B7B8845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Proxy", "Structural.Proxy\Structural.Proxy.csproj", "{78C9268C-A776-4D0B-A822-EAA2B47013DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Proxy", "Structural.Proxy\Structural.Proxy.csproj", "{78C9268C-A776-4D0B-A822-EAA2B47013DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Proxy.UnitTests", "Structural.Proxy.UnitTests\Structural.Proxy.UnitTests.csproj", "{CB71E8C4-3565-46C5-8F9E-8784BABECACD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Proxy.UnitTests", "Structural.Proxy.UnitTests\Structural.Proxy.UnitTests.csproj", "{CB71E8C4-3565-46C5-8F9E-8784BABECACD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsability", "ChainOfResponsability", "{6441C797-77AF-4FDE-B668-E67701C1F796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.ChainOfResponsability", "Behavior.ChainOfResponsability\Behavior.ChainOfResponsability.csproj", "{A0B83358-DDF0-41A2-9F92-32012EDD6B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.ChainOfResponsability.UnitTests", "Behavior.ChainOfResponsability.UnitTests\Behavior.ChainOfResponsability.UnitTests.csproj", "{E4AF3949-23E7-4280-B12D-57B3BB29DFF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -188,6 +194,14 @@ Global
 		{CB71E8C4-3565-46C5-8F9E-8784BABECACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB71E8C4-3565-46C5-8F9E-8784BABECACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB71E8C4-3565-46C5-8F9E-8784BABECACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B83358-DDF0-41A2-9F92-32012EDD6B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B83358-DDF0-41A2-9F92-32012EDD6B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B83358-DDF0-41A2-9F92-32012EDD6B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B83358-DDF0-41A2-9F92-32012EDD6B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4AF3949-23E7-4280-B12D-57B3BB29DFF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AF3949-23E7-4280-B12D-57B3BB29DFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AF3949-23E7-4280-B12D-57B3BB29DFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AF3949-23E7-4280-B12D-57B3BB29DFF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -229,6 +243,9 @@ Global
 		{7D0C75DE-8C7E-42F5-9F48-9AC40B7B8845} = {654EE9BE-891A-41BB-9D90-64FC95D74EDD}
 		{78C9268C-A776-4D0B-A822-EAA2B47013DA} = {7D0C75DE-8C7E-42F5-9F48-9AC40B7B8845}
 		{CB71E8C4-3565-46C5-8F9E-8784BABECACD} = {7D0C75DE-8C7E-42F5-9F48-9AC40B7B8845}
+		{6441C797-77AF-4FDE-B668-E67701C1F796} = {30A67F87-F805-4609-A83C-F755ADC4D811}
+		{A0B83358-DDF0-41A2-9F92-32012EDD6B19} = {6441C797-77AF-4FDE-B668-E67701C1F796}
+		{E4AF3949-23E7-4280-B12D-57B3BB29DFF2} = {6441C797-77AF-4FDE-B668-E67701C1F796}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A46AA7A-81C9-4910-A450-2585A43895D6}
