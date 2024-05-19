@@ -1,27 +1,12 @@
-﻿namespace Behavior.Mediator
+﻿namespace Behavior.Memento
 {
     /// <summary>
     /// Main class where the application starts.
     /// </summary>
     internal class Program
     {
-        private static readonly ConcreteMediator _mediator = new();
-        private static readonly ColleagueA _colleagueA;
-        private static readonly ColleagueB _colleagueB;
-
-        /// <summary>
-        /// Initializes static members of the <see cref="Program"/> class.
-        /// </summary>
-        static Program()
-        {
-            // Create instances of colleagues
-            _colleagueA = new ColleagueA(_mediator);
-            _colleagueB = new ColleagueB(_mediator);
-
-            // Set colleagues for the mediator
-            _mediator.ColleagueA = _colleagueA;
-            _mediator.ColleagueB = _colleagueB;
-        }
+        private static readonly Originator _originator = new();
+        private static readonly Caretaker _caretaker = new();
 
         /// <summary>
         /// Main function.
@@ -50,10 +35,10 @@
         /// </summary>
         private static void GetOption()
         {
-            Console.WriteLine("Mediator pattern");
+            Console.WriteLine("Memento pattern");
             Console.WriteLine("Menú de opciones:");
-            Console.WriteLine("1. Enviar mensaje desde el amigo A hacia el B");
-            Console.WriteLine("2. Enviar mensaje desde el amigo B hacia el A");
+            Console.WriteLine("1. Cambiar originador");
+            Console.WriteLine("2. Restaurar originador");
             Console.WriteLine("3. Salir");
         }
 
@@ -70,10 +55,10 @@
             switch (input)
             {
                 case "1":
-                    SendMessageBetweenTwoFriends(_colleagueA);
+                    ChangeOriginator();
                     break;
                 case "2":
-                    SendMessageBetweenTwoFriends(_colleagueB);
+                    RestoreOriginator();
                     break;
                 case "3":
                     exitRequested = true;
@@ -98,23 +83,21 @@
         }
 
         /// <summary>
-        /// Sends a message from one colleague to another.
+        /// Changes the state of the originator and saves the current state as a memento.
         /// </summary>
-        /// <param name="start">The starting colleague.</param>
-        private static void SendMessageBetweenTwoFriends(Colleague start)
+        private static void ChangeOriginator()
         {
-            switch (start)
-            {
-                case ColleagueA:
-                    ((ColleagueA)start).SendMessage("Hello from Colleague A!");
-                    break;
-                case ColleagueB:
-                    ((ColleagueB)start).SendMessage("Hello from Colleague B!");
-                    break;
-                default:
-                    Console.WriteLine($"Unmanage {nameof(start)} type in {nameof(SendMessageBetweenTwoFriends)}. The type is {start?.GetType()}");
-                    break;
-            }
+            _originator.State = "State 1";
+            _caretaker.SaveMemento(_originator.CreateMemento());
+        }
+
+        /// <summary>
+        /// Restores the state of the originator to a previously saved state.
+        /// </summary>
+        private static void RestoreOriginator()
+        {
+            _originator.State = "State 2";
+            _originator.RestoreMemento(_caretaker.RetrieveMemento());
         }
     }
 }
