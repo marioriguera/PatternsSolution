@@ -88,39 +88,45 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Proxy.UnitTests"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsability", "ChainOfResponsability", "{6441C797-77AF-4FDE-B668-E67701C1F796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.ChainOfResponsability", "Behavior.ChainOfResponsability\Behavior.ChainOfResponsability.csproj", "{A0B83358-DDF0-41A2-9F92-32012EDD6B19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavior.ChainOfResponsability", "Behavior.ChainOfResponsability\Behavior.ChainOfResponsability.csproj", "{A0B83358-DDF0-41A2-9F92-32012EDD6B19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.ChainOfResponsability.UnitTests", "Behavior.ChainOfResponsability.UnitTests\Behavior.ChainOfResponsability.UnitTests.csproj", "{E4AF3949-23E7-4280-B12D-57B3BB29DFF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavior.ChainOfResponsability.UnitTests", "Behavior.ChainOfResponsability.UnitTests\Behavior.ChainOfResponsability.UnitTests.csproj", "{E4AF3949-23E7-4280-B12D-57B3BB29DFF2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{842C16E7-ACDB-4A25-9F98-11BD1BDFAF3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.Command.UnitTests", "Behavior.Command.UnitTests\Behavior.Command.UnitTests.csproj", "{96CA2C33-41CA-4CA8-8BD2-43955118D748}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavior.Command.UnitTests", "Behavior.Command.UnitTests\Behavior.Command.UnitTests.csproj", "{96CA2C33-41CA-4CA8-8BD2-43955118D748}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.Command", "Behavior.Command\Behavior.Command.csproj", "{AFFA0CF3-9FBC-480D-95A7-1B7552956748}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavior.Command", "Behavior.Command\Behavior.Command.csproj", "{AFFA0CF3-9FBC-480D-95A7-1B7552956748}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{37AC0AD8-F912-4640-9C5E-0A5600C0AA94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.Iterator", "Behavior.Iterator\Behavior.Iterator.csproj", "{02FA44DD-28E0-4A3F-A476-EE1CF4D38D59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavior.Iterator", "Behavior.Iterator\Behavior.Iterator.csproj", "{02FA44DD-28E0-4A3F-A476-EE1CF4D38D59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.Iterator.UnitTests", "Behavior.Iterator.UnitTests\Behavior.Iterator.UnitTests.csproj", "{883F27D5-6F08-4189-8554-CB090A0C3E8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavior.Iterator.UnitTests", "Behavior.Iterator.UnitTests\Behavior.Iterator.UnitTests.csproj", "{883F27D5-6F08-4189-8554-CB090A0C3E8C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{E32ACCD3-0C76-4770-A5A8-B7E80F632732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.Mediator.UnitTests", "Behavior.Mediator.UnitTests\Behavior.Mediator.UnitTests.csproj", "{1EFF981F-B91C-4F47-A018-7DFDF3A2B148}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavior.Mediator.UnitTests", "Behavior.Mediator.UnitTests\Behavior.Mediator.UnitTests.csproj", "{1EFF981F-B91C-4F47-A018-7DFDF3A2B148}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.Mediator", "Behavior.Mediator\Behavior.Mediator.csproj", "{B35D4B12-CA4E-4142-9A8A-D485B62CD5C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavior.Mediator", "Behavior.Mediator\Behavior.Mediator.csproj", "{B35D4B12-CA4E-4142-9A8A-D485B62CD5C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento", "Memento", "{5C49FB64-F6D8-4001-A9B7-8705080B0880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.Memento", "Behavior.Memento\Behavior.Memento.csproj", "{FD55946F-E98B-469F-87C7-B74B9B1A1C0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavior.Memento", "Behavior.Memento\Behavior.Memento.csproj", "{FD55946F-E98B-469F-87C7-B74B9B1A1C0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.Memento.UnitTests", "Behavior.Memento.UnitTests\Behavior.Memento.UnitTests.csproj", "{B6797872-E315-4D10-B172-AD2C4BEA37B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavior.Memento.UnitTests", "Behavior.Memento.UnitTests\Behavior.Memento.UnitTests.csproj", "{B6797872-E315-4D10-B172-AD2C4BEA37B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{7ABF35AC-042E-46F7-BA4B-0E2512E27E65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.Observer.UnitTests", "Behavior.Observer.UnitTests\Behavior.Observer.UnitTests.csproj", "{F90F3228-9B09-46D5-9282-ECD2D43E8752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavior.Observer.UnitTests", "Behavior.Observer.UnitTests\Behavior.Observer.UnitTests.csproj", "{F90F3228-9B09-46D5-9282-ECD2D43E8752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.Observer", "Behavior.Observer\Behavior.Observer.csproj", "{641FDD20-C70E-44C5-8B82-C4DB4B9FD938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavior.Observer", "Behavior.Observer\Behavior.Observer.csproj", "{641FDD20-C70E-44C5-8B82-C4DB4B9FD938}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State", "State", "{F69E2653-F0AA-411E-9CAE-29E3A49BB387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.State", "Behavior.State\Behavior.State.csproj", "{71F9C5C2-1196-4E56-A98B-E5C57ECB0DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavior.State.UnitTests", "Behavior.State.UnitTests\Behavior.State.UnitTests.csproj", "{B1764908-257D-4C60-9CC4-60FD6CDA372B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -272,6 +278,14 @@ Global
 		{641FDD20-C70E-44C5-8B82-C4DB4B9FD938}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{641FDD20-C70E-44C5-8B82-C4DB4B9FD938}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{641FDD20-C70E-44C5-8B82-C4DB4B9FD938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F9C5C2-1196-4E56-A98B-E5C57ECB0DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F9C5C2-1196-4E56-A98B-E5C57ECB0DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F9C5C2-1196-4E56-A98B-E5C57ECB0DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F9C5C2-1196-4E56-A98B-E5C57ECB0DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1764908-257D-4C60-9CC4-60FD6CDA372B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1764908-257D-4C60-9CC4-60FD6CDA372B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1764908-257D-4C60-9CC4-60FD6CDA372B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1764908-257D-4C60-9CC4-60FD6CDA372B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -331,6 +345,9 @@ Global
 		{7ABF35AC-042E-46F7-BA4B-0E2512E27E65} = {30A67F87-F805-4609-A83C-F755ADC4D811}
 		{F90F3228-9B09-46D5-9282-ECD2D43E8752} = {7ABF35AC-042E-46F7-BA4B-0E2512E27E65}
 		{641FDD20-C70E-44C5-8B82-C4DB4B9FD938} = {7ABF35AC-042E-46F7-BA4B-0E2512E27E65}
+		{F69E2653-F0AA-411E-9CAE-29E3A49BB387} = {30A67F87-F805-4609-A83C-F755ADC4D811}
+		{71F9C5C2-1196-4E56-A98B-E5C57ECB0DB1} = {F69E2653-F0AA-411E-9CAE-29E3A49BB387}
+		{B1764908-257D-4C60-9CC4-60FD6CDA372B} = {F69E2653-F0AA-411E-9CAE-29E3A49BB387}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A46AA7A-81C9-4910-A450-2585A43895D6}
